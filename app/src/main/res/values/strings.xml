@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tugas Pertemuan 9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+   
+    <array name="list_jenis_tiket">
+        <item>First Class Ticket</item>
+        <item>Business Class Ticket</item>
+        <item>Economy Class Ticket</item>
+    </array>
+</resources>
