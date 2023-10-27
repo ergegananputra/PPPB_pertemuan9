@@ -31,9 +31,9 @@ class TicketFragment : Fragment() {
             buttonBuyTicket.setOnClickListener {
                 val action = TicketFragmentDirections.actionTicketFragmentToBuyTicketFragment()
 
-                buttonBuyTicket.setOnClickListener {
-                    findNavController().navigate(action)
-                }
+
+                findNavController().navigate(action)
+
             }
 
             findNavController().currentBackStackEntry?.
